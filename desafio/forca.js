@@ -24,7 +24,7 @@ class Forca {
   buscarEstado() { 
     if(this.vidas === 0){return "perdeu"};
     if(this.palavra.indexOf("_") < 0){return "ganhou"};
-    return "Aguardando chute";
+    return "aguardando chute";
   }
 
   buscarDadosDoJogo() {
